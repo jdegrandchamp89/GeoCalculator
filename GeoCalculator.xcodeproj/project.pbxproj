@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2C6D6D1ED64618009740B8 /* CalcFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2C6D6C1ED64618009740B8 /* CalcFields.swift */; };
 		9EC2C62F1E4A690B009BC940 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC2C62E1E4A690B009BC940 /* SettingsViewController.swift */; };
 		9EDE87E41E36AC2C00C2F900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE87E31E36AC2C00C2F900 /* AppDelegate.swift */; };
 		9EDE87E61E36AC2C00C2F900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE87E51E36AC2C00C2F900 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D2C6D6C1ED64618009740B8 /* CalcFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcFields.swift; sourceTree = "<group>"; };
 		9EC2C62E1E4A690B009BC940 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		9EDE87E01E36AC2C00C2F900 /* GeoCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDE87E31E36AC2C00C2F900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				9EDE87EC1E36AC2C00C2F900 /* LaunchScreen.storyboard */,
 				9EDE87EF1E36AC2C00C2F900 /* Info.plist */,
 				9EC2C62E1E4A690B009BC940 /* SettingsViewController.swift */,
+				0D2C6D6C1ED64618009740B8 /* CalcFields.swift */,
 			);
 			path = GeoCalculator;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				9EDE88121E36AF3800C2F900 /* DecimalMinusTextField.swift in Sources */,
 				9EDE88141E36B02700C2F900 /* CLLocationExtensions.swift in Sources */,
 				9EDE87E61E36AC2C00C2F900 /* ViewController.swift in Sources */,
+				0D2C6D6D1ED64618009740B8 /* CalcFields.swift in Sources */,
 				9EC2C62F1E4A690B009BC940 /* SettingsViewController.swift in Sources */,
 				9EDE87E41E36AC2C00C2F900 /* AppDelegate.swift in Sources */,
 			);
