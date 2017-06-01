@@ -88,6 +88,13 @@ class ViewController: UIViewController {
                 dest.delegate = self
             }
         }
+        if segue.identifier == "historySegue" {
+            if let dest = segue.destination.childViewControllers[0] as? HistoryTableViewController {
+                dest.entries = self.entries
+                dest.historyDelegate = self
+            }
+        }
+        
     }
 }
 
@@ -97,6 +104,17 @@ extension ViewController : SettingsViewControllerDelegate
     {
         self.distanceUnits = distanceUnits
         self.bearingUnits = bearingUnits
+        self.doCalculatations()
+    }
+}
+
+extension ViewController : HistoryTableViewControllerDelegate
+{
+    func selectEntry(entry: LocationLookup){
+        self.p1Lat.text = "\(entry.origLat)"
+        self.p1Lng.text = "\(entry.origLng)"
+        self.p2Lat.text = "\(entry.destLat)"
+        self.p2Lng.text = "\(entry.destLng)"
         self.doCalculatations()
     }
 }

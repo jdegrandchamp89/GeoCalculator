@@ -15,7 +15,6 @@
 		9EDE87E61E36AC2C00C2F900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE87E51E36AC2C00C2F900 /* ViewController.swift */; };
 		9EDE87E91E36AC2C00C2F900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDE87E71E36AC2C00C2F900 /* Main.storyboard */; };
 		9EDE87EB1E36AC2C00C2F900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDE87EA1E36AC2C00C2F900 /* Assets.xcassets */; };
-		9EDE87EE1E36AC2C00C2F900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDE87EC1E36AC2C00C2F900 /* LaunchScreen.storyboard */; };
 		9EDE87F91E36AC2C00C2F900 /* GeoCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE87F81E36AC2C00C2F900 /* GeoCalculatorTests.swift */; };
 		9EDE88041E36AC2D00C2F900 /* GeoCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE88031E36AC2D00C2F900 /* GeoCalculatorUITests.swift */; };
 		9EDE88121E36AF3800C2F900 /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE88111E36AF3800C2F900 /* DecimalMinusTextField.swift */; };
@@ -50,7 +49,6 @@
 		9EDE87E51E36AC2C00C2F900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9EDE87E81E36AC2C00C2F900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EDE87EA1E36AC2C00C2F900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9EDE87ED1E36AC2C00C2F900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EDE87EF1E36AC2C00C2F900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EDE87F41E36AC2C00C2F900 /* GeoCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDE87F81E36AC2C00C2F900 /* GeoCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCalculatorTests.swift; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 				9EDE88131E36B02700C2F900 /* CLLocationExtensions.swift */,
 				9EDE87E71E36AC2C00C2F900 /* Main.storyboard */,
 				9EDE87EA1E36AC2C00C2F900 /* Assets.xcassets */,
-				9EDE87EC1E36AC2C00C2F900 /* LaunchScreen.storyboard */,
 				9EDE87EF1E36AC2C00C2F900 /* Info.plist */,
 				9EC2C62E1E4A690B009BC940 /* SettingsViewController.swift */,
 				0D2C6D6C1ED64618009740B8 /* CalcFields.swift */,
@@ -265,7 +262,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EDE87EE1E36AC2C00C2F900 /* LaunchScreen.storyboard in Resources */,
 				9EDE87EB1E36AC2C00C2F900 /* Assets.xcassets in Resources */,
 				9EDE87E91E36AC2C00C2F900 /* Main.storyboard in Resources */,
 			);
@@ -341,14 +337,6 @@
 				9EDE87E81E36AC2C00C2F900 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9EDE87EC1E36AC2C00C2F900 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9EDE87ED1E36AC2C00C2F900 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
