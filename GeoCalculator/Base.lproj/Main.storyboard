@@ -354,11 +354,6 @@
                                         <constraint firstAttribute="trailing" secondItem="cEK-l4-QNH" secondAttribute="trailing" id="x57-fl-4Pp"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="destPoint" destination="cdU-ay-Fpf" id="X2b-ZS-jGh"/>
-                                    <outlet property="origPoint" destination="5at-rx-5DI" id="yoN-yX-9k1"/>
-                                    <outlet property="timeStamp" destination="1sH-wZ-Qxw" id="lUK-QX-i2L"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -367,11 +362,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="eZ3-54-j6u"/>
-                    <connections>
-                        <outlet property="destPoint" destination="cdU-ay-Fpf" id="Rmg-5T-u5j"/>
-                        <outlet property="origPoint" destination="5at-rx-5DI" id="8c1-4e-qTj"/>
-                        <outlet property="timeStamp" destination="1sH-wZ-Qxw" id="UQF-cB-QMJ"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z6X-AC-hIH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
