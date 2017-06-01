@@ -19,6 +19,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var distanceLabel: UILabel!
     @IBOutlet weak var bearingLabel: UILabel!
     
+    var entries : [LocationLookup] = []
+    
     var distanceUnits : String = "Kilometers"
     var bearingUnits : String = "Degrees"
     
@@ -54,6 +56,7 @@ class ViewController: UIViewController {
         } else {
             self.bearingLabel.text = "Bearing: \((bearing * 1777.7777777778).rounded() / 100.0) mils."
         }
+        entries.append(LocationLookup(origLat: p1lt, origLng: p1ln, destLat: p2lt, destLng: p2ln, timestamp: Date()))
     }
     
     @IBAction func calculateButtonPressed(_ sender: UIButton) {
